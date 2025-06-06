@@ -3,5 +3,7 @@ age = float(input("Enter your age: "))
 
 
 
-
-ON VA METTRE UN SCORE DE 17 - 0 AU FIVE !!!!!!!!!
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+if 0 < age < 18:
+    print("tu es mineur")
